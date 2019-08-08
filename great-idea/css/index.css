@@ -64,6 +64,11 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
 body{
 	
 	box-sizing:border-box;
@@ -74,8 +79,8 @@ body{
 nav{
 	display:flex;
 	justify-content:space-between;
-	align-items:center;
-  	justify-content:space-around;
+	/* align-items:center; */
+  	/* justify-content:space-around; */
 }
 .navLink a{
 	padding : 0 20px 0 20px;
@@ -125,7 +130,103 @@ justify-content: center;
 
 /*<------------SERVICES PAGE  STYLES---------------->*/
 
-.go{
-	color: red;
+.container2{
+	box-sizing:border-box;
+	padding:0;
+	margin:0 auto;
+	/* display: block */
+	width: 1000px;
+}
+
+.head1{
+	display:flex;
+	justify-content: space-between;
+	/* align-content: space-between; */
+
+}
+.navLinks a{
+	padding : 0 20px 0 20px;
+	text-decoration: none;
+}
+
+.image01{
+	width:99%;
+	padding: 39px 0 0 41px;
+
+}
+.cont1{
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 50px 0px 50px 0px;
+	align-content: space-around;
+
 	
 }
+.cont1 button{
+	border-radius: 10px;
+	font-size: 12px;
+	padding: 2px 0px 4px 0px;
+    margin: 22px 0px 0px 0px;
+
+}
+
+.cont1 p{
+	padding: 5px 32px 26px 13px;
+	background-color: whitesmoke;
+}
+.cont1 h3{
+	font-size: 19px;
+	padding: 14px 0px 4px 14px;
+    background-color: whitesmoke;
+}
+
+.wrap{
+	padding: 39px 0 0 41px;
+}
+
+
+.words1{
+	border: 2px solid black;
+	width:40%;
+
+}
+
+.words2{
+	border: 2px solid black;
+	width:40%;
+}
+.words3{
+	border: 2px solid black;
+	width:40%;
+}
+.words4{
+	border: 2px solid black;
+	width:40%;
+}
+.words5{
+	border: 2px solid black;
+	width:40%;
+}
+.words6{
+	border: 2px solid black;
+	width:40%;
+}
+
+.end {
+	display:flex;
+	justify-content: center;
+}
+.wrap3 {
+	display: flex;
+	justify-content: space-between;
+
+}
+ul{
+	display: list-item;
+	padding: 34px 0px 0px 0px;
+}
+ .words7{
+	 width:394px;
+
+ }
