@@ -64,3 +64,190 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body{
+	
+	box-sizing:border-box;
+	padding:0;
+	margin:0 auto;
+	width: 1000px;
+}	
+nav{
+	display:flex;
+	justify-content:space-between;
+	/* align-items:center; */
+  	/* justify-content:space-around; */
+}
+.navLink a{
+	padding : 0 20px 0 20px;
+	text-decoration: none;
+}
+
+.wrapper {
+	display:flex;
+	font-size: 70px;
+	text-align: center;
+	align-items:flex-end;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 50px
+}
+button{
+	font-size: 15px;
+	height: 36px;
+    width: 100px;
+}
+.wrapper2{
+	display: flex;
+	align-content: center;
+	margin:30px;
+
+}
+
+.image3{
+	display:flex;
+	justify-content: space-evenly;
+}
+
+.wrapper3{
+	display: flex;
+	align-content: center;
+	margin:30px;
+}
+
+.wrapper4{
+	display: flex;
+	justify-content: left
+}
+.copy p{
+	display: flex;
+justify-content: center;
+}
+
+/*<------------SERVICES PAGE  STYLES---------------->*/
+
+.container2{
+	box-sizing:border-box;
+	padding:0;
+	margin:0 auto;
+	/* display: block */
+	width: 880px;
+}
+
+.head1{
+	display:flex;
+	justify-content: space-between;
+	/* align-content: space-between; */
+
+}
+.navLinks a{
+	padding : 0 20px 0 20px;
+	text-decoration: none;
+}
+
+.image01{
+	display: flex;
+    justify-content: center;
+	margin: 42px 0 0px 0px;
+}
+.sec1 h1{
+	font-size: 33px;
+	
+
+}
+.sec1 p{
+	display: flex;
+}
+
+.cont1{
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 50px 0px 50px 0px;
+	align-content: space-around;
+
+	
+}
+.cont1 button{
+	border-radius: 10px;
+	font-size: 12px;
+	padding: 2px 0px 4px 0px;
+    margin: 22px 0px 0px 0px;
+
+}
+.container2 ul{
+	list-style: square;
+}
+.container2 li{
+	margin-bottom: 12px;
+}
+
+.cont1 p{
+	padding: 5px 32px 26px 13px;
+	
+}
+.cont1 h3{
+	font-size: 19px;
+	padding: 14px 0px 4px 14px;
+   
+}
+
+.wrap{
+	margin: 45px 0 45px 0;
+}
+
+
+.words1{
+	border: 2px solid black;
+	width:40%;
+
+}
+
+.words2{
+	border: 2px solid black;
+	width:40%;
+}
+.words3{
+	border: 2px solid black;
+	width:40%;
+}
+.words4{
+	border: 2px solid black;
+	width:40%;
+}
+.words5{
+	border: 2px solid black;
+	width:40%;
+}
+.words6{
+	border: 2px solid black;
+	width:40%;
+}
+.words1, .words2, .words2, .words3, .words4, .words5, .words6{
+	margin-bottom: 30px;
+	background-color: whitesmoke;
+}
+.end {
+	display:flex;
+	justify-content: center;
+}
+.wrap3 {
+	display: flex;
+	justify-content: space-between;
+
+}
+ul{
+	display: list-item;
+	padding: 32px 0px 0px 20px;
+}
+ .words7{
+	 width:394px;
+
+ }
+ .end{
+	 margin-top: 38px;
+ }
